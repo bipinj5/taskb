@@ -20,16 +20,16 @@ export default class HomeScreen extends React.Component {
 		  </View>
 		</Header>
         <Tabs>
-          <Tab heading={ <TabHeading><MaterialCommunityIcon name="home" style={{fontSize: 30}} /></TabHeading>}>
+          <Tab heading={ <TabHeading style={{backgroundColor: "white"}}><MaterialCommunityIcon name="home" style={{fontSize: 30, color: "#00aced"}} /></TabHeading>}>
             <Tab1 />
           </Tab>
-          <Tab heading={ <TabHeading><FeatherIcon name="search" style={{fontSize: 30}} /></TabHeading>}>
+          <Tab heading={ <TabHeading style={{backgroundColor: "white"}}><FeatherIcon name="search" style={{fontSize: 30, color: "#00aced"}} /></TabHeading>}>
             <Tab2 />
           </Tab>
-          <Tab heading={ <TabHeading><FeatherIcon name="bell" style={{fontSize: 30}} /></TabHeading>}>
+          <Tab heading={ <TabHeading style={{backgroundColor: "white"}}><FeatherIcon name="bell" style={{fontSize: 30, color: "#00aced"}} /></TabHeading>}>
             <Tab3 />
           </Tab>
-          <Tab heading={ <TabHeading><FeatherIcon name="mail" style={{fontSize: 27}} /></TabHeading>}>
+          <Tab heading={ <TabHeading style={{backgroundColor: "white"}}><FeatherIcon name="mail" style={{fontSize: 27, , color: "#00aced"}} /></TabHeading>}>
             <Tab4 />
           </Tab>
         </Tabs>
